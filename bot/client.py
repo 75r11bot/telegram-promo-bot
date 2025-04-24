@@ -15,8 +15,9 @@ SESSION_NAME = "promo_session"  # สร้าง session file
 client = TelegramClient(SESSION_NAME, API_ID, API_HASH)
 
 # รายการโฟลเดอร์หรือชื่อกลุ่มที่ต้องฟัง
-CHAT_TITLES = os.getenv("CHAT_TITLES", "")
-TARGET_CHAT_TITLES = [title.strip().lower() for title in CHAT_TITLES.split(",")]
+titles = os.getenv("CHAT_TITLES", "").split(",")
+
+TARGET_CHAT_TITLES = titles
 
 @client.on(events.NewMessage)
 async def handler(event):
