@@ -1,3 +1,2 @@
 # Telegram Promo Bot
-
-Receives promo codes via Telegram and applies them automatically using Playwright.
+Automates promo code submission from Telegram.

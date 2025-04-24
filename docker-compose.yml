@@ -1,10 +1,7 @@
-version: '3.8'
 services:
-  app:
+  telegram-promo-bot:
     build: .
-    ports:
-      - "8000:8000"
+    env_file:
+      - .env
     volumes:
       - .:/app
-    env_file:
-      - .env.example

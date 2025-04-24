@@ -1,4 +1,6 @@
-fastapi
-uvicorn
 telethon
 playwright
+fastapi
+uvicorn
+python-dotenv
+requests
