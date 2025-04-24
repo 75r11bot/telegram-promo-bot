@@ -1,9 +1,4 @@
-telethon
-python-dotenv
+fastapi
+uvicorn[standard]
 playwright
-aiofiles
-asyncio
-pytesseract
-Pillow
-opencv-python
-numpy
+telethon

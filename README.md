@@ -1,3 +1,3 @@
-# telegram-promo-bot
+# Telegram Promo Bot
 
-Automated bot to read promo codes from Telegram and submit them to websites.
+Reads promo codes from Telegram messages, applies them using Playwright, and serves an API with FastAPI.
